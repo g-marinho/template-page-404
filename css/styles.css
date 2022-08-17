@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+
+header{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.035em;
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    top: 90px;
+    left: 735px;
+    color: #333333
+}
+
+p {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.035em;
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    top: 350px;
+    left: 736px;
+    color: #4F4F4F
+}
+
+button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 503px;
+    background: #333333;
+    font-family: 'Space Mono';
+    color: antiquewhite;
+    font-weight: 700;
+    size: 14px;
+    line-height: 21px;
+    letter-spacing: 00.035em;
+}
+
+img {
+    position: absolute;
+    width: 539px;
+    height: 414px;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 37.11%;
+}
+
+@media only screen and (max-device-width: 950px) {
+    header {width: 133px; height: 25px; top: 20px; left: 24px;}
+    img {width: 195px; height: 100px; top: 100px; left: 80px}
+    h1{width: 350px; height: 142px; left: 70px; top:225px; font-size: 36px; line-height: 40px;}
+    p {width: 328px; height: 81px; left: 70px; top: 405px;}
+    button {width: 216px; height: 68px; left: 70px; top: 700px;}
+}
